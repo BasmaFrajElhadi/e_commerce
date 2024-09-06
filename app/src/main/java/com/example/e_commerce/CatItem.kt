@@ -15,5 +15,5 @@ data class CatItem(
     @SerialName("tags")
     val tags: List<String>
 ){
-    fun imageUrl(): String = "https://cataas.com/cat/$id" // Replace with your actual base URL and path
+    fun imageUrl(): String = "https://cataas.com/cat/$id"
 }
